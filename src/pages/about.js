@@ -1,11 +1,9 @@
-import React, { Component } from 'react'
+import React from 'react'
 
 import Layout from '../components/layout'
 
-export default class about extends Component {
-  render() {
-    return (
-        <Layout>
+const About = ({ location }) => (
+        <Layout location={ location }>
             <div>
                 <h1>About Us</h1>
                 <p>
@@ -14,7 +12,7 @@ export default class about extends Component {
                     Bitters kickstarter before they sold out 8-bit, af blue bottle DIY
                     paleo iceland microdosing brooklyn vinyl fingerstache. Gentrify
                     adaptogen raw denim heirloom. XOXO distillery try-hard, deep v
-                    gluten-free fanny pack adaptogen everyday carry VHS trust fund green
+                    gluten-free fanny pack adaptogen everyday carry VHS green
                     juice twee cold-pressed jianbing. Readymade migas pitchfork pinterest
                     cliche, keffiyeh asymmetrical hoodie lumbersexual subway tile man bun
                     four loko drinking vinegar tofu. YOLO pinterest try-hard pok pok echo
@@ -22,6 +20,6 @@ export default class about extends Component {
                 </p>
             </div>
         </Layout>
-    )
-  }
-}
+)
+
+export default About

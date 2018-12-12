@@ -61,7 +61,6 @@ const Layout = ({ children, location }) => (
             </div>
           )}
         </Spring>
-          {/* { location.pathname === '/' && } */}
         <MainLayout>
           <div>
           {children}
@@ -75,6 +74,10 @@ const Layout = ({ children, location }) => (
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
+}
+
+Layout.defaultProps = {
+  location: {},
 }
 
 export default Layout

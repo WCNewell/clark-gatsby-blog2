@@ -6,7 +6,7 @@ title: "My First Post"
 
 # Hello Whirrled!
 
-* Locavore Lumbersexual Ennui!
+* Locavore Lumbersexual Ennui
 * Apple Cider Vinegar Kitch
 * Cold-pressed Kettlebells HIIT
 

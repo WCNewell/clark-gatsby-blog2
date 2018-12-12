@@ -1,4 +1,16 @@
-This is a learning project 
+This is a GatsbyJS learning project with Scott Tolinski at Level Up Tutorials:
+
+>https://www.leveluptutorials.com/tutorials/pro-gatsby-2
+
+This course covered how to quickly build a blog-site using GatsbyJS using several different plug-ins as installed from npm and configured in 'gatsby-config.js' abd also covered the usages of utilizing 'gatsby-node.js'.
+
+This course was a great introduction to GraphQL and covered the benefits of using the GraphiQL interface, how to write GraphQL syntax, and creating function queries that could be imported into React components.
+
+Using react-spring for image animation was briefly covered as well as the amazing ease of uploading a site from GitHub to Netlify.
+
+A working version of this project is deployed here:
+
+>https://vigilant-mclean-ef99d1.netlify.com/
 
 <p align="center">
   <a href="https://www.gatsbyjs.org">

@@ -1,9 +1,11 @@
 module.exports = {
   siteMetadata: {
     title: 'Clark Newell Blog',
-    description: 'Clark Newell Blog Site Prototype'
+    description: 'Clark Newell Blog Site Prototype',
+    siteUrl: 'https://vigilant-mclean-ef99d1.netlify.com/'
   },
   plugins: [
+    'gatsby-plugin-sitemap',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-styled-components',
     {
@@ -25,8 +27,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'clark-newell-gatsby-blog2',
+        short_name: 'clark-newell-blog',
         start_url: '/',
         background_color: '#663399',
         theme_color: '#663399',

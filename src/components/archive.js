@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from 'styled-components'
+import styled from 'styled-components'
 import { StaticQuery, graphql, Link } from 'gatsby'
 
 const POST_ARCHIVE_QUERY = graphql`
@@ -20,11 +20,11 @@ const POST_ARCHIVE_QUERY = graphql`
     }
 `
 
-const ArchiveTitle = styles.h3`
+const ArchiveTitle = styled.h3`
     margin: 20px 0px 20px 0px;
 `
 
-const ArchiveList = styles.ul`
+const ArchiveList = styled.ul`
     padding: 0;
     margin: 0;
     list-style: none;
@@ -33,7 +33,7 @@ const ArchiveList = styles.ul`
             Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
         font - size: 0.8 rem;
         text - decoration: underline;
-        color: rebeccapurple;
+        color: #1B97CB;
     }
 `
 

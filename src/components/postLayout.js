@@ -2,10 +2,9 @@ import React, { Component } from 'react'
 import { graphql } from 'gatsby'
 import Layout from './layout'
 
-// Static Query can be used anywhere, does not accept variable, can't use context
-
-// Page Query
-// Must be used on pages
+// Static Query, can be used anywhere, does not accept variable, can't use context
+// other option is
+// Page Query, must be used on pages
 
 export default class postLayout extends Component {
   render() {

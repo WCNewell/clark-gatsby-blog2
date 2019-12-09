@@ -3,10 +3,10 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import styled from 'styled-components'
 ;
-import cnLogo from '../images/SmOgLogoTrans.png'
+import cnLogo from '../images/OgLogoTrans-cropped.png'
 
 const HeaderWrapper = styled.div`
-  background: rebeccapurple;
+  background: white;
   marginBottom: 1.45rem;
   img {
     margin-bottom: 0;
@@ -35,7 +35,7 @@ const Header = ({ siteTitle }) => (
               padding: '1rem'
             }}
             src={ cnLogo }
-            alt='Clark Newell Web Development Logo' />
+            alt='Clark Newell Logo' />
             
         </Link>
       </h1>

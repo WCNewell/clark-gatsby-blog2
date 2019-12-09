@@ -26,6 +26,7 @@ const Layout = ({ children, location }) => (
         site {
           siteMetadata {
             title
+            description
           }
         }
         file(relativePath: {
@@ -33,7 +34,7 @@ const Layout = ({ children, location }) => (
         }) {
           childImageSharp {
             fluid(maxWidth: 1000) {
-                ...GatsbyImageSharpFluid_tracedSVG
+                ...GatsbyImageSharpFluid
             }
           }
         }
@@ -45,15 +46,15 @@ const Layout = ({ children, location }) => (
           title={data.site.siteMetadata.title}
           meta={[
             { name: 'description', content: 'data.site.siteMetadata.description' },
-            { name: 'keywords', content: 'sample, something' },
+            { name: 'clark newell, web development, software development, fitness journey', content: 'portfolio, blog' },
           ]}
         >
           <html lang="en" />
         </Helmet>
         <Header siteTitle={data.site.siteMetadata.title} />
         <Spring
-          from={{ height: location.pathname === '/' ? 100 : 400 }}
-          to={{ height: location.pathname === '/' ? 400 : 100 }}
+          from={{ height: location.pathname === '/' ? 200 : 400 }}
+          to={{ height: location.pathname === '/' ? 400 : 200 }}
         >
           {styles => (
             <div style={{overflow: 'hidden', ...styles}}>
@@ -63,7 +64,7 @@ const Layout = ({ children, location }) => (
         </Spring>
         <MainLayout>
           <div>
-          {children}
+            {children}
           </div>
           <Archive />
         </MainLayout>

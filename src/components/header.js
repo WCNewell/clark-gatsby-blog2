@@ -2,17 +2,17 @@ import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
 import styled from 'styled-components'
-;
+  ;
 import cnLogo from '../images/OgLogoTrans-cropped.png'
 
 const HeaderWrapper = styled.div`
-  background: white;
+  background: hotpink;
   marginBottom: 1.45rem;
   img {
     margin-bottom: 0;
   }
 `
-const HeaderContainer = styled.div `
+const HeaderContainer = styled.div`
     margin: 0 auto;
     maxWidth: 960px;
     padding: 0.5rem;
@@ -34,13 +34,13 @@ const Header = ({ siteTitle }) => (
               width: '250px',
               padding: '1rem'
             }}
-            src={ cnLogo }
+            src={cnLogo}
             alt='Clark Newell Logo' />
-            
+
         </Link>
       </h1>
-      </HeaderContainer>
-    </HeaderWrapper>
+    </HeaderContainer>
+  </HeaderWrapper>
 )
 
 Header.propTypes = {

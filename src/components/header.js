@@ -6,7 +6,7 @@ import styled from 'styled-components'
 import cnLogo from '../images/OgLogoTrans-cropped.png'
 
 const HeaderWrapper = styled.div`
-  background: white;
+  background: hotpink;
   marginBottom: 1.45rem;
   img {
     margin-bottom: 0;
